@@ -18,13 +18,19 @@
         }
 
         /* Header */
+        .section-bg {
 
+            background-color:#F6F7FB;
+            min-width: 100%;
+            
+        
+        
+        }
         .container {
-            display: flex;
-             max-width: max-content;
+             /* display: flex; */
+             max-width: 1050px;
              margin: auto;
-             width: 80%;
-
+             padding: 0px 15px;
 
         }
         header {
@@ -47,6 +53,7 @@
          height: 58;
          top: 16px;
          left: 364px;
+         color: var(--white-color);
 
            /* width: 1322;
            height: 91;
@@ -109,15 +116,23 @@
     
 }
 
+        .card-container {
+            display: flex;
+            width: 1440;
+            height: 777;
+
+
+}
         /* Hero Section */
         .hero {
-            background-color:var(--white-color);
+            /* background-color:var(--white-color); */
             height: 400px;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             text-align: center;
+            
         }
 
         .hero h1 {
@@ -126,6 +141,13 @@
         }
 
         .hero p {
+         font-family: Montserrat;
+         font-weight: 700;
+         font-size: 16px;
+         line-height: 24px;
+         letter-spacing: 0.1px;
+         color: var(--primary-color);
+
             font-size: 1.2rem;
             margin-bottom: 2rem;
         }
@@ -139,6 +161,9 @@
         }
 
         .hero .cta-button:hover {
-            background-color: #0056b3;
+            background-color:rebeccapurple;
         }
-
+        .hero img {
+            
+             
+        }
