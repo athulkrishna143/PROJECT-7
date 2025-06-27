@@ -1,0 +1,136 @@
+/* root */
+:root{
+    --primary-color: #8D5CF6 ;
+
+    --second-color: #252B42;
+
+    --light-color:#737373;
+
+    --white-color: white;
+
+}
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Header */
+
+        .container {
+            display: flex;
+             max-width: max-content;
+
+
+        }
+        header {
+            background-color:transparent;
+            color:var(--white-color);
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            width: 1322;
+            height: 91;
+            left: 59px;
+
+        }
+        
+         .nav-bar {
+         display: flex;
+         width: 815;
+         height: 58;
+         top: 16px;
+         left: 364px;
+
+           /* width: 1322;
+           height: 91;
+           left: 59px; */
+
+         }
+         .nav-list {
+         display: flex;
+         width: 275;
+         height: 24;
+         top: 17px;
+         gap: 21px;
+
+         }
+         .nav-auth {
+            display: flex;
+            width: 228px;
+            height: 52px;
+            top: 3px;
+            left: 594px;
+            gap: 40px;
+         }
+
+        header .logo {
+            display: flex;
+            color: var(--second-color);
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        nav a {
+            color: var(--light-color);
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .login {
+            
+            border: none;
+            background-color: transparent;
+            color: var(--primary-color);
+            
+        }
+        .join {
+             
+            background-color:var(--primary-color);
+            color: var(--white-color);
+            padding: 0.8rem 1.5rem;
+            text-decoration: none;
+            border-radius: 5px;
+
+        }
+
+        /* Hero Section */
+        .hero {
+            background-color:var(--white-color);
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+
+        .hero .cta-button {
+            background-color:var(--primary-color);
+            color: var(--white-color);
+            padding: 0.8rem 1.5rem;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .hero .cta-button:hover {
+            background-color: #0056b3;
+        }
+
